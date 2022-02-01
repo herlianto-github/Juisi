@@ -1,4 +1,5 @@
-## Juisi
+# Juisi
+
 An Awesome Healthy App Assistant Right from your fridge
 
 ## Getting Started
@@ -21,11 +22,11 @@ An Awesome Healthy App Assistant Right from your fridge
     > remove: Total 10 (delta 1), reused 10 (delta 1)
     > Unpacking objects: 100% (10/10), done.
     ```
-    
+
     ```console
     cd Juisi
-    ``` 
-    
+    ```
+
 - Simple run  
 
     ```console
@@ -47,7 +48,7 @@ An Awesome Healthy App Assistant Right from your fridge
     
     }' >> main.go
     ```
-    
+
     ```console
     go run main.go
     ```
@@ -57,26 +58,27 @@ An Awesome Healthy App Assistant Right from your fridge
     ```console
     git checkout -b feature-name 
     ```
+
     Always create new branch when develop something
 
     ```console
     git add .    
     ```
-    
+
     ```console
     git commit -m "feature description"
     ```
-    
+
     ```console
     $ git remote -v
     > origin  https://github.com/YOUR_USERNAME/Juisi.git (fetch)
     > origin  https://github.com/YOUR_USERNAME/Juisi.git (push)
     ```
-    
+
     ```console
-    $ git remote add upstream https://github.com/herlianto-github/Juisi.git
+    git remote add upstream https://github.com/herlianto-github/Juisi.git
     ```
-    
+
     ```console
     $ git remote -v
     > origin    https://github.com/YOUR_USERNAME/Juisi.git (fetch)
@@ -84,7 +86,7 @@ An Awesome Healthy App Assistant Right from your fridge
     > upstream  https://github.com/herlianto-github/Juisi.git (fetch)
     > upstream  https://github.com/herlianto-github/Juisi.git (push)
     ```
-    
+
     ```console
     git push -u origin feature-name    
     ```
